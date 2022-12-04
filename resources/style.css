@@ -1,0 +1,148 @@
+html {
+    display: block;
+}
+
+body {
+    margin: 8px;
+    display: block;
+}
+
+/* NAV */
+
+nav ul {
+    background-color: #010e80;
+    list-style: none;
+    display: table;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: table-cell;
+}
+
+li a {
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+/* HEADER */
+
+header {
+    margin-left: 14px;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* MAIN */
+
+main {
+    display: block;
+}
+
+/* BLOG */
+
+section {
+    display: block;
+}
+
+article {
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+    max-width: 80%;
+    margin: 15px;
+}
+
+/* FIGURE */
+
+figure {
+    display: block;
+}
+
+figure img {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    right: 28px;
+}
+
+figcaption {
+    text-align: left;
+    position: relative;
+    right: 28px;
+}
+
+/* ASIDE */
+
+aside {
+    font-size: 18px;
+    border: 5px solid #010e80;
+    max-width: 80%;
+    padding: 15px;
+    position: relative;
+    left: 10px;
+}
+
+/* MEDIA */
+
+article {
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+    max-width: 80%;
+    margin: 15px;
+}
+
+article h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+video {
+    display: block;
+    width: 420px;
+    height: 250px;
+    padding: 15px;
+}
+
+embed {
+    width: 420px;
+    height: auto;
+    padding: 15px;
+}
+
+audio {
+    box-sizing: border-box;
+    width: 98%;
+    padding: 15px;
+}
+
+/* FOOTER */
+
+footer {
+    display: block;
+    background-color: #010e80;
+    width: 100%;
+    position: relative;
+    bottom: -100px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
